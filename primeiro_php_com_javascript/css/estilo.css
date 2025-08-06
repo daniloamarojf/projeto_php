@@ -17,6 +17,7 @@ h1 {
 
 p {
     font-size: 18px; color: #555;
+
 }
 
 /* Rótulo do campo */
@@ -47,6 +48,11 @@ button {
 }
 
 /* Efeito ao passar o mouse no botão */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Link de voltar */
 a {
     display: inline-block;
     margin-top: 15px; padding: 8px 16px; border-radius: 4px;
@@ -54,8 +60,10 @@ a {
     color: white; background-color: #007BFF;
 }
 
-/* Efeito no link quando passa o mouse */
+/* Efeito no link quando passa o mouse*/
 a:hover {
     background-color: #0056b3;
 }
+
+
 
