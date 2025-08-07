@@ -1,15 +1,66 @@
 header {
     background-color: dodgerblue;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: white;
 }
 
 body {
-    background-color: azure;
+    background-color: steelblue;   
+    font-family: Arial, sans-serif;
+
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
 }
+
+
+.container {
+    background-color: lightblue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+form {
+    border: 1px solid#ccc ; border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    align-items: center;
+    padding: 30px;
+    font-size: 1.5rem;
+}
+
+
+input {
+    border: 1px solid#ccc ; border-radius: 6px;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+select {
+    font-size: 1.5rem;
+    padding: 10px 100px;
+    text-align: left;
+    text-align-last: left;
+    border: 1px solid#ccc ; border-radius: 6px;
+}
+
 
 div {
     background-color: white;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
+    border: 1px solid#ccc ; border-radius: 6px;
     background-color: dodgerblue;
+    font-size: 1.5rem;
+    padding: 10px 150px;
+    margin: 20px;
 }
