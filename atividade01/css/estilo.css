@@ -1,5 +1,5 @@
 header {
-    background-color: dodgerblue;
+    background-color: #0077b6;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -9,24 +9,21 @@ header {
 }
 
 body {
-    background-color: steelblue;   
+    background-color: #e6f0f8;
     font-family: Arial, sans-serif;
-
     justify-content: center;
     align-items: center;
-    padding: 60px;
 }
 
 
 .container {
-    background-color: lightblue;
+    background-color: #e6f0f8;
     text-align: center;
     display: flex;
-    justify-content: center;
-    padding: 50px;
+    padding: 50px 50px 200px;
 }
 
-form {
+#formulario {
     border: 1px solid#ccc ; border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: white;
@@ -35,6 +32,19 @@ form {
     font-size: 1.5rem;
 }
 
+#formulario2 {
+    border: 1px solid#ccc ; border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 30px;
+    font-size: 1.5rem;
+}
+
+
+a {
+    text-decoration: none;
+    color:dodgerblue;
+}
 
 input {
     border: 1px solid#ccc ; border-radius: 6px;
@@ -58,6 +68,7 @@ div {
 }
 
 button {
+    color: white;
     border: 1px solid#ccc ; border-radius: 6px;
     background-color: dodgerblue;
     font-size: 1.5rem;

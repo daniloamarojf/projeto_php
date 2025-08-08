@@ -14,7 +14,7 @@
         <h1>Calculadora: Operadores Aritméticos</h1>
     </header>
         <div class="container">
-            <form id="Formulario" method="POST" action="processa.php">
+            <form id="formulario" method="POST" action="processa.php">
                 <label>Digite o primeiro número:</label><br>
                 <input type="number" id="numero1" name="numero1" required><br>
 
