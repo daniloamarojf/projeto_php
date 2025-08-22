@@ -1,3 +1,5 @@
+<?php include 'public/processa.php'; ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -12,14 +14,23 @@
 
     <main>
         <section>
-            <form method="POST" action="public/processa.php">
+            <form method="POST" action="">
                 <label>Adivinhe o número:</label>
 
                 <input type="number" id="numero" name="numero" required>
 
                 <button type="submit">Verificar</button>
             </form>
+
+            <?php if ($_SERVER['REQUEST_METHOD'] === "POST") : ?>
+                <p>Numero sorteado:<?= htmlspecialchars($numero_sorteado) ?></p>
+                <p>Você digitou:<?= htmlspecialchars($numero) ?></p>
+                <p><?= htmlspecialchars($resultado) ?></p>
+                <p>Número de tentativas:<?= htmlspecialchars($tentativas) ?></p> 
+            <?php endif; ?>
+
         </section>
+      
     </main>
     
 </body>
